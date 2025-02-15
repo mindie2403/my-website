@@ -1,1 +1,74 @@
 # my-website
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Chào mừng đến với trang web của tôi
+    </header>
+    <main>
+        <p>Đây là một trang web đơn giản với HTML và CSS.</p>
+        <a href="#" class="button">Nhấn vào đây</a>
+    </main>
+    <footer>
+        &copy; 2025 Trang Web Đơn Giản
+    </footer>
+</body>
+
+</html>
+<table> 
+    <tr> <!-- Đây là dòng -->
+        <th>Tên</th>  // cột
+        <th>Tuổi</th>
+        <th>Địa chỉ</th>
+    </tr>
+    <tr>
+        <td>Nguyễn Văn A</td>
+        <td>25</td>
+        <td>Hà Nội</td>
+    </tr>
+    <tr>
+        <td>Trần Thị B</td>
+        <td>30</td>
+        <td>Hồ Chí Minh</td>
+    </tr>
+</table>
